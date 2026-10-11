@@ -1,2 +1,11 @@
-# crypto-arbitrage-bot
-Multi-exchange crypto arbitrage bot supporting Binance, PancakeSwap, KuCoin, Gate.io, and Uniswap for automated spot and on-chain arbitrage trading
+# Copy this file to .env and fill in the values you need.
+BINANCE_API_KEY=
+BINANCE_API_SECRET=
+KUCOIN_API_KEY=
+KUCOIN_API_SECRET=
+GATE_API_KEY=
+GATE_API_SECRET=
+ARBITRAGE_SYMBOL=BTC/USDT
+CHECK_INTERVAL_SECONDS=5
+MIN_PROFIT_THRESHOLD=0.1
+DATABASE_PATH=arbitrage_bot_data.db
